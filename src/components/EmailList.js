@@ -14,7 +14,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import EmailRow from "./EmailRow";
 import { onSnapshot, collection, query, orderBy } from "firebase/firestore";
-import db from "./firebase";
+import db from "../firebase";
 function EmailList() {
   const [emails, setEmails] = React.useState([]);
   useEffect(() => {

@@ -1,20 +1,21 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
+import Header from "../src/components/Header";
+import Sidebar from "../src/components/Sidebar";
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   useNavigate,
 } from "react-router-dom";
-import Mail from "./Mail";
-import EmailList from "./EmailList";
-import SendMail from "./SendMail";
+import Mail from "../src/components/Mail";
+import EmailList from "../src/components/EmailList";
+import SendMail from "../src/components/SendMail";
 import { useDispatch, useSelector } from "react-redux";
 import { selectsendMessageIsOpen } from "./features/mailSlice";
 import { login, selectUser } from "./features/userSlice";
-import Login from "./Login";
+import Login from "../src/components/Login";
 import { getAuth } from "firebase/auth";
 
 function App() {

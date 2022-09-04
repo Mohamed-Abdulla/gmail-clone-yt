@@ -4,8 +4,8 @@ import { Close } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { closeSendMessage } from "./features/mailSlice";
-import db from "./firebase";
+import { closeSendMessage } from "../features/mailSlice";
+import db from "../firebase";
 import { collection, serverTimestamp, addDoc } from "firebase/firestore"; //get database
 function SendMail() {
   const dispatch = useDispatch();

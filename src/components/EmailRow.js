@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import React from "react";
 import "./EmailRow.css";
 import { useDispatch } from "react-redux";
-import { selectMail } from "./features/mailSlice";
+import { selectMail } from "../features/mailSlice";
 
 function EmailRow({ id, title, subject, description, time }) {
   const navigate = useNavigate();

@@ -16,7 +16,7 @@ import { IconButton } from "@mui/material";
 import React from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { selectOpenMail } from "./features/mailSlice";
+import { selectOpenMail } from "../features/mailSlice";
 import "./Mail.css";
 function Mail() {
   const navigate = useNavigate();

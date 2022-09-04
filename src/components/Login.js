@@ -2,7 +2,7 @@ import React from "react";
 import "./Login.css";
 import { Button } from "@mui/material";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { login } from "./features/userSlice";
+import { login } from "../features/userSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 function Login() {

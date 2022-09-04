@@ -6,7 +6,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { IconButton, Avatar } from "@mui/material";
-import { logout, selectUser } from "./features/userSlice";
+import { logout, selectUser } from "../features/userSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { getAuth, signOut } from "firebase/auth";
 
